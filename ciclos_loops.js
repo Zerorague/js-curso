@@ -46,19 +46,19 @@ numeros.forEach(element => {
 
 // con for in es un for especial para un objeto (es como for in de python)
 
-const niñas={
+const persona={
     nombre:"Karina",
     apellido:"Moya",
-    follable:"si"
+    trabaja:"si"
 }
 
-for (const key in niñas) {
-    console.log(`key:${key} : value:${niñas[key]}`)
+for (const key in persona) {
+    console.log(`key:${key} : value:${persona[key]}`)
 }
 
 //for of me permite recoorer cualquier objeto iterable (objetos,arrwglos,tuplas, etc)
 
-for (const iterator of "niñas") {
+for (const iterator of "persona") {
     console.log(iterator)
     
 }
