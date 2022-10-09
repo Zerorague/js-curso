@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>template strings</title>
+</head>
+<body>
+    <h1>Template strings</h1>
+    <h2>concatenacion</h2>
+    <ul>
+        <li>Primavera</li>
+        <li>verano</li>
+        <li>otoño</li>
+        <li>invierno</li>
+    </ul>
+    <script>
+        let nombre="juliooo"
+        let apellido="san martin"
+
+        //concatenacion
+        let saludo="Hola mi nombre es "+nombre+" "+ apellido
+        console.log(saludo)
+        //interpolacion de variables
+        //Template string
+        let saludo2 =`hola mi nombres es ${nombre} ${apellido}.` //es como el fstring
+        console.log(saludo2)
+
+        let ul = `
+        <ul>
+            <li>Primavera</li>
+            <li>verano</li>
+            <li>otoño</li>
+            <li>invierno</li>
+        </ul>
+        `
+        console.log(ul)
+
+    </script>
+    
+</body>
+</html>

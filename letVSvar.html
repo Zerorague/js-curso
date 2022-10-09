@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Fundamentos de Java Script</h1>
+    <h2>Declaracion de variables "let y var"</h2>
+    <p>es mala practica usar var para delcarar variables, ya que estas hacen todo global y no respetan por bloque</p>
+    <script>
+        var hola="hola mundo" //ambito global
+        let hello="Hello Wolrd"//ambito de bloque
+        console.log(hola) 
+        console.log(window.hello)
+        let musica="Rock"
+        console.log("variable musica antes del bloque ",musica)
+        
+        /* esto es un comentario
+        de varias lineas
+        */
+        //esto es un bloque -comentario de una linea
+        {
+            let musica="pop"
+            console.log("variable musica dentro del bloque", musica)
+        }
+
+        console.log("variable musica despues del bloque ",musica)
+
+
+    
+    </script>
+    
+</body>
+</html>

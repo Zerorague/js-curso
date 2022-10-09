@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>template strings</title>
+</head>
+<body>
+    <h1>Numeros</h1>
+    <h2>operaciones</h2>
+    <script>
+        let a=2
+        let b=new Number(3)
+        let c=7.19
+        let d
+        let pasarAnumero="29.78"
+
+        console.log(Number.parseFloat(pasarAnumero))
+        d=parseFloat("5.69") //convierte el string en float | para entero es parseInt()
+        console.log(a,b,c.toFixed(1)) //toFixed redondea a n decimales
+        console.log((d+3).toFixed(2))// IMPRIMIENDO la variable d ya transformada a tipo float 
+
+        //typeof devuelve el tipo de dato de un objeto o variable
+
+        console.log(typeof(d)) //number
+
+    </script>
+    
+</body>
+</html>
