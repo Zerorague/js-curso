@@ -40,7 +40,7 @@ function Animales(nombre,genero){
 
 Animales.prototype.sonar=function(){
     console.log("hola soy un saludo desde el prototipo")
-}
+} //los metodos deben ser asignados a prototipo para mejorar rendimiento
 
 conejo= new Animales("perro","machio")
 conejo.sonar()
