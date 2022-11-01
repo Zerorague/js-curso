@@ -10,7 +10,7 @@ Animal.prototype.muerto=function(){
     this.vivo=false
 }
 Animal.prototype.sonido= function() {
-    console.log("no importa, yo te la limpio")
+    console.log("soy un animal")
 }
 
 //Herencia
@@ -30,16 +30,20 @@ Perro.prototype.constructor = Perro  //al heredar ↑ del prototipo animal tambi
 //Sobre escritura de metodos
 
 Perro.prototype.sonido = function(){
-    console.log("Guau Guau")
+    console.log("mi sonido es ladrar")
+}
+
+Perro.prototype.ladrar= function () {
+    console.log("guau guau")
 }
 
 
-const Gigi= new Animal("Zorra","Hembra",2)
+const mantecado= new Animal("gato","macho",2)
 
-console.log(Gigi.vivo)
-Gigi.muerto()
-console.log(Gigi.vivo)
-Gigi.sonido()
+console.log(mantecado.vivo)
+mantecado.muerto()
+console.log(mantecado.vivo)
+mantecado.sonido()
 
 const Nube= new Perro("hembra",3,"mediano")
 
@@ -47,3 +51,7 @@ console.log(Nube.vivo)
 Nube.muerto()
 console.log(Nube.vivo)
 Nube.sonido()
+Nube.ladrar()
+
+
+console.log(Perro)
