@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log(Date())
+        let fecha=new Date()
+        console.log(fecha)
+        console.log(fecha.getDay()) //obtiene el dia de la semana
+        console.log(fecha.getDate()) //obtiene la fecha (9 de noviembre | solo el 9)
+
+        console.log(fecha.getMonth()) //mes 10
+
+        console.log(fecha.getFullYear()) //obtiene la diferencia entre el año actual y 1900
+
+        console.log(fecha.getFullYear())//obtiene directamente el año en el que estamos
+
+        console.log(fecha.getHours())
+        console.log(fecha.getMinutes())
+        console.log(fecha.getSeconds())
+        console.log(fecha.getMilliseconds())
+        console.log(fecha.toString())
+        console.log(fecha.toDateString()) //SOLO LA FECHA
+        console.log(fecha.toLocaleString())
+        console.log(fecha.toLocaleDateString())
+        console.log(fecha.toLocaleTimeString())
+        console.log(fecha.getTimezoneOffset()) //devuelve la zona horaria en minutos
+        console.log(fecha.getUTCDate())//dia o fecha del meridiano 0
+        console.log(fecha.getUTCHours())//hora de greenwich
+        console.log(Date.now()) //cuantos segundos han pasado desde 1970 TIME STAMP
+
+
+        //investigar libreria moment js
+
+        let cumple =new Date(1993,3,7)
+        console.log(cumple)
+
+
+
+
+    </script>
+    
+</body>
+</html>
