@@ -112,4 +112,4 @@ y=2,
 pruebaXY="se espera que x sea menor que y"
 
 
-console.assert(x<y,{x,y,pruebaXY})
+console.assert(x<y,{x,y,pruebaXY}) //testing

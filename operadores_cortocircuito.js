@@ -18,3 +18,8 @@ function saludarCorto (mensaje){
 
 saludar()
 saludarCorto("Julio")
+console.log(false || "valor derecha")
+
+//cortocircuito AND
+
+console.log(false && "valor derecha")
