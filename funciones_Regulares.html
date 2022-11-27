@@ -7,10 +7,24 @@
     <title>funciones regulares</title>
 </head>
 <body>
-    <h1> Funciones regulares</h1>
+    <h1> expresiones regulares</h1>
+    <h2>RegExp</h2>
     <script>
+        //funciones de caracteres que hacen busquedas en el texto
+
+        let correo="julioasmb@gmail.com"
+
+        let valCorreo= /([\w.-]+)(@)([a-zA-Z0-9]+\.{1}[a-zA-Z]{2,3})/
+
+        console.log(valCorreo.test(correo)) //devuelve true o false dependiendo de si encuentra o no encuentra coincidencias la expresion regular
+        console.log(valCorreo.exec(correo))//devuelve un array con las coincidencias y grupos capturados de nuestra expresion regular
+
+
+
 
         
+
+
     </script>
     
 </body>
